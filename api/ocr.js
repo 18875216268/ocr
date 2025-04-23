@@ -18,13 +18,13 @@ async function getAccessToken(apiKey, secretKey) {
 module.exports = async (req, res) => {
   // 启用CORS
   res.setHeader('Access-Control-Allow-Credentials', true);
-  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Origin', '*');  // 或者指定允许的域名
   res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,POST');
   res.setHeader(
     'Access-Control-Allow-Headers',
     'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version'
   );
-
+  
   // 处理预检请求
   if (req.method === 'OPTIONS') {
     res.status(200).end();
