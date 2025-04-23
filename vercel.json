@@ -13,7 +13,7 @@
     }
   ],
   "env": {
-    "BAIDU_OCR_API_KEY": "@baidu_ocr_api_key",
-    "BAIDU_OCR_SECRET_KEY": "@baidu_ocr_secret_key"
+  "BAIDU_OCR_API_KEY": "zo0eqUDjqgbL5TnT7euGqV6z",
+  "BAIDU_OCR_SECRET_KEY": "0UQi0TL1QZSzW1anyww8HWac3MuILiPr"
   }
 }
